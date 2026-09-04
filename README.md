@@ -48,7 +48,7 @@ bundle exec jekyll serve
 
 | 记录类型 | 主机记录 | 记录值 |
 |---------|---------|--------|
-| CNAME | privacy | `<GITHUB_USERNAME>.github.io.` |
+| CNAME | privacy | `995011402.github.io.` |
 
 GitHub 仓库 → Settings → Pages → Custom domain 输入 `privacy.suisuinian.net` → Save。
 勾选 `Enforce HTTPS`（Let's Encrypt 自动签发证书，约 5-10 分钟）。
