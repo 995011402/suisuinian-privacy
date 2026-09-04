@@ -1,0 +1,32 @@
+title: 岁岁念 · 隐私政策与用户协议
+description: 岁岁念（com.suisuinian.app）的隐私政策与用户协议公开页
+lang: zh-CN
+baseurl: ""
+url: "https://privacy.suisuinian.net"
+
+# Markdown 引擎（默认 kramdown，已支持 GFM 表格）
+markdown: kramdown
+highlighter: rouge
+
+# 使用 _layouts/default.html 渲染所有页面
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: default
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# 不需要主题、内置插件，站点足够简单
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git

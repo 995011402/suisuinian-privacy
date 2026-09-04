@@ -1,0 +1,22 @@
+# Jekyll 构建产物
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby（仅当用户选择本地预览）
+.bundle/
+vendor/
+
+# OS 临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Node（如未来引入构建工具）
+node_modules/
